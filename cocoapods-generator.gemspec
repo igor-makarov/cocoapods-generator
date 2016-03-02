@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsGenerator::VERSION
   spec.authors       = ['从权']
   spec.email         = ['chaoyang.zcy@alibaba-inc.com']
-  spec.description   = %q{A short description of cocoapods-generator.}
-  spec.summary       = %q{A longer description of cocoapods-generator.}
-  spec.homepage      = 'https://github.com/EXAMPLE/cocoapods-generator'
+  spec.description   = %q{Config empty target with configuration from *.podspec.}
+  spec.summary       = %q{add files to empty target from *.podspec, such as souce files, libraries, frameworks, resources and so on.}
+  spec.homepage      = 'https://github.com/zhzhy/cocoapods-generator'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
