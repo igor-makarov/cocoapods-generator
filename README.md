@@ -20,5 +20,5 @@ In the future, the future when no target name same as project will generate a ta
 ## Usage
 
     $ pod spec generator *.podspec
-    Please run this command at project root directory, then a target will be configed,
-    which name same as project name.
+Please run this command at project root directory, then a target same as podspec name will be configed,
+please make sure the target to be configured has same name with podspec.
