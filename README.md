@@ -9,8 +9,9 @@ Now, you can add files to empty target with *.podspec, while config it, such as 
 **After use this command:**
 
 ![](https://github.com/zhzhy/cocoapods-generator/blob/master/Resoures/After.png )
+Then you can see source files, vendored framework, resouce files which at current directory will be added to the target.
 
-Next, when no target name same as project will generate a target, then config it with *.podspec at current directory.
+In the future, the future when no target name same as project will generate a target will be developed, then config it with *.podspec at current directory.
 
 ## Installation
 
