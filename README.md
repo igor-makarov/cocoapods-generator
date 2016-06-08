@@ -23,5 +23,5 @@ In the future, the future when no target name same as project will generate a ta
 
 Add source files to existed project, which from podspec at current directory.
 Please Be Careful: 
-* Please make sure the **target** to be added equal to spec_name, else a target with spec_name will be created. 
+* Please make sure the **target** to be added equal to **spec_name**, else a target with spec_name will be created. 
 * Please make sure project name same to spec_name, else can't find *.xcodeproj file.
