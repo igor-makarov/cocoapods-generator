@@ -87,7 +87,7 @@ module Pod
           end
 
           subspecs_message = ''
-          if result.is_a?(Result)
+          if result.is_a?(Validator::Result)
             subspecs = result.subspecs.uniq
             if subspecs.count > 2
               subspecs_message = '[' + subspecs[0..2].join(', ') + ', and more...] '
